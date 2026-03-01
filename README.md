@@ -205,12 +205,6 @@ Key Difference:
 loc  → uses labels  (what the index/column is named)
 iloc → uses positions (0, 1, 2... counting from the left/top)
 
-Summary — Accessing Data:
-Method              | Uses        | Example
---------------------|-------------|---------------------------
-df["col"]           | Column name | df["Marks"]
-df.loc[r, "col"]    | Labels      | df.loc[0, "Marks"] → 85
-df.iloc[r, c]       | Positions   | df.iloc[0, 1] → 85
 
 6) Adding, Modifying, and Deleting Columns
 

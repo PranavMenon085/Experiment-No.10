@@ -279,13 +279,6 @@ Output:
 1    B     90
 (Only rows where Marks > 80 are returned)
 
-Summary — Statistical and Filtering Methods:
-Operation             | Syntax                    | Result
-----------------------|---------------------------|--------
-Mean                  | df["Marks"].mean()        | 85.33
-Maximum               | df["Marks"].max()         | 90
-Minimum               | df["Marks"].min()         | 78
-Filter rows           | df[df["Marks"] > 80]      | Rows A, B
 
 These operations make Pandas a concise and powerful tool for performing
 data analysis directly on structured tabular datasets.
